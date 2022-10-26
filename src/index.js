@@ -16,6 +16,7 @@ import FuncaoSalario from '../src/funcaoSalario/index'
 import FuncaoAcai from '../src/funcaoAcai/index'
 import FuncaoSigno from '../src/funcaoSigno/index'
 import FuncaoSorvete from '../src/funcaoSorvete/index'
+import FuncaoNota from '../src/funcaoNota/index'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,6 +35,7 @@ root.render(
     <Route path='/funcaoContador' element={<FuncaoContador/>}/>
     <Route path='/funcaoLinhas' element={<FuncaoLinhas/>}/>
     <Route path='/funcaoRetangulo' element={<FuncaoRetangulo/>}/>
+    <Route path='/funcaoNota' element={<FuncaoNota/>}/>
 
 
     </Routes>
